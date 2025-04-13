@@ -3,9 +3,14 @@
 作业：从零开始构建三层神经网络分类器，实现图像分类
 
 基本要求：
+
 （1） 本次作业要求自主实现反向传播，不允许使用 pytorch，tensorflow 等现成的支持自动微分的深度学习框架，可以使用 numpy；
+
 （2） 最终提交的代码中应至少包含模型、训练、测试和参数查找四个部分，鼓励进行模块化设计；
+
 （3） 其中模型部分应允许自定义隐藏层大小、激活函数类型，支持通过反向传播计算给定损失的梯度；训练部分应实现 SGD 优化器、学习率下降、交叉熵损失和 L2 正则化，并能根据验证集指标自动保存最优的模型权重；参数查找环节要求调节学习率、隐藏层大小、正则化强度等超参数，观察并记录模型在不同超参数下的性能；测试部分需支持导入训练好的模型，输出在测试集上的分类准确率（Accuracy）。
+
+
 ## 项目介绍
 
 ```
@@ -25,7 +30,7 @@ project
 请下载 CIFAR-10 数据集并将其解压到项目目录下的`cifar-10-batches-py`
 文件夹中。
 
-链接https://www.cs.toronto.edu/~kriz/cifar.html
+[数据链接](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 ## 训练模型
 
@@ -45,7 +50,7 @@ python main.py
 
 训练结束后，代码会自动加载最佳模型，并在测试集上测试打印最终准确率。
 
-你也可以单独运行：
+也可以单独运行：
 
 ```
 python test.py
@@ -55,5 +60,4 @@ python test.py
 
 通过网盘分享的文件：best_model.pkl
 
-链接: https://pan.baidu.com/s/18AMuifBePQh3z7ZF39iiyQ?pwd=9239 
-提取码: 9239
+[百度网盘链接](https://pan.baidu.com/s/1YRHlV_ASNlQG-3oYGg1Wiw?pwd=76e5)
